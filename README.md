@@ -3,6 +3,7 @@
 ```
 rails new .
 bundle install
+gem install mysql2
 ```
 
 This README would normally document whatever steps are necessary to get the
