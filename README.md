@@ -6,6 +6,16 @@ bundle install
 gem install mysql2
 ```
 
+```
+# Install Capistrano, cap install STAGES=staging,production
+cap install
+```
+
+```
+# list all available tasks
+$ bundle exec cap -T
+```
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
