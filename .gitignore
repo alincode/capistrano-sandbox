@@ -22,5 +22,6 @@
 
 config/database.yml
 config/secrets.yml
+config/deploy/staging.rb
 log/
 tmp/
