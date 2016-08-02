@@ -16,6 +16,15 @@ cap install
 $ bundle exec cap -T
 ```
 
+**Check required files and directories exist**
+```
+cap staging deploy:check
+```
+
+```
+cp config/deploy/staging.rb.example config/deploy/staging.rb
+```
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
